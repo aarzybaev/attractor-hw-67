@@ -124,7 +124,7 @@ const Keyboard: React.FC = () => {
                     btnHandler('0');
                   }}>0
           </button>
-          <button type="submit" className="btn btn-outline-dark btn-lg"
+          <button type="button" className="btn btn-outline-dark btn-lg"
                   onClick={() => {
                     btnHandler('E');
                   }}>E
