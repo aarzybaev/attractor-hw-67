@@ -1,9 +1,11 @@
-function App() {
+import Keyboard from './containers/Keyboard/Keyboard';
+
+const App = () => {
   return (
     <>
-      Hello!
+      <Keyboard/>
     </>
   );
-}
+};
 
 export default App;
